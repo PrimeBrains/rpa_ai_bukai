@@ -73,7 +73,7 @@ MNISTの手書き(分類)
 (venv) $ cd deep-learning-from-scratch/ch03/
 (venv) $ python mnist_show.py
 
-(venv) $ python temp.py
+(venv) $ python ../../temp.py
 ```
 
 
@@ -83,7 +83,7 @@ MNISTの手書き(分類)
 適当に移動して
 (venv)$ git clone https://github.com/masatomix/machine-learning
 (venv)$ cd machine-learning/
-(venv)$ checkout feature/init
+(venv)$ git checkout feature/init
 
 
 (venv)$ curl https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch/master/common/functions.py -O
