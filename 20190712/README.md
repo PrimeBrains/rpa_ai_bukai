@@ -54,7 +54,7 @@ $ source ./venv/bin/activate
 (venv)$ pip install numpy matplotlib PyQt5  pillow
 ```
 
-MNISTの手書き
+MNISTの手書き(分類)
 
 ```
 (venv) $ git clone https://github.com/oreilly-japan/deep-learning-from-scratch.git
@@ -63,10 +63,7 @@ MNISTの手書き
 ```
 
 
-
-
-
-線形回帰ほか
+回帰ほか
 
 ```
 適当に移動して
@@ -83,11 +80,37 @@ $
 
 
 
+線形回帰
+```
 (venv)$ python liner_reg.py
+```
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/73777/cbca579b-277c-39c4-c605-cf61867b98d9.png)
 
 
+非線形回帰
+```
 (venv)$  python non_liner_reg.py
+```
+
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/73777/b3d1cf69-ef9e-3ec4-b5aa-7afec9ee860f.png)
 
+
+
+線形の重回帰
+
+```
+(venv) $ python liner2d_reg.py
+```
+
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/73777/0ea69cc4-9aea-06cf-88c3-0bc983624d92.png)
+
+
+
+非線形の重回帰
+
+```
+(venv)$ python non_liner2d_reg.py
+```
+
+![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/73777/f44aab0a-d1eb-bc83-f146-7e46d079d6bf.png)
